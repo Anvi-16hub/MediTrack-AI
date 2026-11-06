@@ -1,0 +1,11 @@
+# Local Supabase CLI label only; no remote project reference is configured.
+project_id = "meditrack-ai"
+
+[functions.register-device]
+verify_jwt = false
+
+[functions.dispatch-notifications]
+verify_jwt = false
+
+[functions.check-notification-receipts]
+verify_jwt = false
